@@ -1,0 +1,371 @@
+.align-mid {
+  text-align: center;
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+  align-content: space-between;
+  text-align: -webkit-center;
+}
+
+.card-block {
+  display: block;
+  justify-content: center;
+  /* padding: 2em; */
+  width: 100%;
+}
+
+.button-submit {
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  /* -webkit-font-smoothing: antialiased; */
+  font-size: 150%;
+  color: #FFF;
+  background: #55696e;
+  padding: 10px 60px;
+  display: inline-block;
+  white-space: nowrap;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.button-submit:hover {
+  background: #5e99ac;
+}
+
+.input-group {
+  margin-top: 1em;
+  width: 100%;
+}
+
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .navbar-nav {
+    display: block;
+  }
+}
+
+.navbar-nav {
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.custom-col-1 {
+  width: 8.33%;
+}
+
+.custom-col-2 {
+  width: 16.66%;
+}
+
+.custom-col-3 {
+  width: 25%;
+}
+
+.custom-col-4 {
+  width: 33.33%;
+}
+
+.custom-col-5 {
+  width: 41.66%;
+}
+
+.custom-col-6 {
+  width: 50%;
+}
+
+.custom-col-7 {
+  width: 58.33%;
+}
+
+.custom-col-8 {
+  width: 66.66%;
+}
+
+.custom-col-9 {
+  width: 75%;
+}
+
+.custom-col-10 {
+  width: 83.33%;
+}
+
+.custom-col-11 {
+  width: 91.66%;
+}
+
+.custom-col-12 {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1240px) {
+
+  /* For mobile phones: */
+  [class*="custom-col-"] {
+    width: 100%;
+  }
+}
+
+#container {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 480px;
+  padding: 20px;
+  width: 100%;
+}
+
+html,
+body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  /* align-items: center; */
+  align-content: center;
+  justify-content: center;
+  /* text-align: center; */
+  font-family: 'Montserrat', sans-serif;
+  color: #161A1D;
+}
+
+img {
+  text-align: center;
+  justify-content: space-between;
+  justify-content: center;
+
+}
+
+.qr-code {
+  max-width: 300px;
+  margin: 10px;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 600;
+
+}
+
+.buttonClass {
+  font-size: 1.3em;
+  /* font-family:Arial; */
+  padding: 0.1em 1em 0.1em 1em;
+  /* width:180px; */
+  /* height:32px; */
+  ;
+  border-width: 1px;
+  color: #fff;
+  border-color: rgba(27, 27, 27, 1);
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 10px 14px -7px rgba(59, 59, 59, 1);
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+  background: rgba(77, 77, 77, 1);
+}
+
+.buttonClass:hover {
+  background: rgba(88, 88, 88, 1)
+}
+
+.input-group-text {
+  font-weight: 600;
+  background-color: #DFDFDF;
+  padding: 0.4em;
+}
+
+.element-title {
+  margin-top: 1em;
+  padding: 1em;
+  background-Color: #F5F3F4;
+  border-Radius: 5px;
+}
+
+.element-background {
+  background-Color: #F5F3F4;
+  padding: 1em;
+}
+
+.header-background {
+  background-color: #333533;
+  color: #F5CB5C;
+  /* margin-top: 1em; */
+  /* padding: 1em; */
+}
+
+.header-menu {
+  background-color: #333533;
+  color: #F5CB5C;
+  /* padding: 1em; */
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0px 10px 14px -7px rgba(59, 59, 59, 1);
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+  background: rgba(77, 77, 77, 1);
+}
+
+.menuItem {
+  color: #FFF;
+  background-color: #484847;
+}
+
+.menuItem:hover {
+  color: #F5CB5C;
+  background-color: #484847;
+}
+
+.phoneScreen {
+  display: block;
+  justify-content: center;
+  margin-top: 2em;
+  padding: .4em;
+  width: 100%;
+}
+
+.indexScreen {
+  background-color: #ececec;
+  padding: .4em;
+}
+
+@media all and (min-width: 450px) {
+  .appScreen {
+    width: 450px;
+    padding: 1em;
+    background-color: #ececec;
+  }
+
+  .indexScreen {
+    width: 600px;
+    display: block;
+  }
+}
+
+@media all and (max-width: 449px) {
+  .appScreen {
+    width: 100%;
+    padding: .4em;
+    background-color: #ececec;
+  }
+
+  .indexScreen {
+    width: 100%;
+  }
+}
+
+.info {
+  font-size: .9em;
+  font-style: italic;
+  color: #666;
+}
+
+.info {
+  font-size: 1em;
+  font-style: italic;
+  color: #444;
+}
+
+.card-title {
+  font-family: 'Lobster', cursive;
+  font-size: 37pt;
+  padding: .6em;
+}
+
+.card-title2 {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 26pt;
+  font-weight: 900;
+  /* padding: .6em; */
+}
+
+.card-title3 {
+  font-family: 'Readex Pro', sans-serif;
+  font-size: 20pt;
+  font-weight: 500;
+  padding: .6em;
+}
+
+.card-block {
+  display: block;
+  justify-content: center;
+  /* padding: 2em; */
+  width: 100%;
+}
+
+.button-submit {
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  /* -webkit-font-smoothing: antialiased; */
+  font-size: 150%;
+  color: #FFF;
+  background: #55696e;
+  padding: 10px 60px;
+  display: inline-block;
+  white-space: nowrap;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.button-submit:hover {
+  background: #5e99ac;
+}
+
+.input-group {
+  margin-top: 1em;
+  width: 100%;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+
+  .print {
+    display: block;
+  }
+}

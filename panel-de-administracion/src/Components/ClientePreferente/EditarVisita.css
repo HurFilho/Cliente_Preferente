@@ -1,0 +1,22 @@
+.edita-visita{
+    padding: 1em;
+    margin-bottom: 1em;
+    align-self: center;
+    width: 95%;
+}
+
+input{
+    text-align: center;
+}
+
+#Cancelar{
+    align-self: center;
+    width: fit-content;
+    margin: 1em 1em 0 1em;
+}
+
+#Confirmar{
+    align-self: center;
+    width: fit-content;
+    margin: 1em 1em 0 1em;
+}

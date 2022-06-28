@@ -1,0 +1,8 @@
+.btn-disponibilidad {
+    color: #AAA;
+}
+
+.btn-disponibilidad:hover {
+    background-color: #CCC;
+    color: #161a1d;
+}

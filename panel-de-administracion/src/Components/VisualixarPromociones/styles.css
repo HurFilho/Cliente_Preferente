@@ -1,0 +1,13 @@
+label {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.btn {
+    margin: 2vw 0 0 0;
+    width: calc(200px + 4vw);
+    height: calc(20px + 2vh);
+    font-size: calc(10px + 1vh);
+    padding: 4px 10px 4px 10px;
+    font-weight: 500;
+}
